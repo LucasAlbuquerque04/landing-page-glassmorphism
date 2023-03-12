@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(to right,#55439E, #952FFF);
+}
+
+main {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    background-image: url(images/Component\ 1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    width: 545px;
+    height: 180px;
+    text-align: center;
+    font-family: Lato, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 60px;
+    text-transform: capitalize;
+    color: white;
+    margin-top: -345px;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    bottom: 170px;
+  }
